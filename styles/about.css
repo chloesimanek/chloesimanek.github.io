@@ -1,4 +1,5 @@
 /* about.css */
+
 /* styles for the about page */
 
 body {
@@ -36,3 +37,8 @@ body {
     text-align: left;
 }
 
+abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+    color: rgb(0, 0, 0);
+}
