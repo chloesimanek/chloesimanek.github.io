@@ -95,6 +95,10 @@ a:hover {
     font-size: 1.2vw;
 }
 
+.about-section p {
+    font-size: 1.25vw;
+}
+
 .section h2 {
     text-align: left;
 }
