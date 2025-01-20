@@ -3,7 +3,7 @@
 /* styles for the about page */
 
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;  
 }
 
 .about-title-container {
@@ -13,7 +13,7 @@ body {
 
 /* container for headshot and bio */
 
-.about-section {
+.about-page-section {
     padding: 60px 60px;
 }
 
