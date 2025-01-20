@@ -87,7 +87,12 @@ a:hover {
     text-align: left;
 }
 
+.about-section h1 {
+    font-size: 30px;
+}
+
 .about-section p {
+    font-size: 18px;
     margin-top: -10px;
 }
 
@@ -97,27 +102,22 @@ a:hover {
 }
 
 .research {
-    color: #ee70bc;
+    color: #EA785B; 
     font-size: larger;
+    font-style: italic;
 }
   
 .development {
-    color: #097663;
+    color: #8ba2f0; 
     font-size: larger;
+    font-style: italic;
 }
   
 .design {
-    color: #8ba2f0; 
+    color: #ee70bc; 
     font-size: larger;
+    font-style: italic;
 }
-
-/* work grid */
-
-/* .work-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 20px; 
-} */
 
 .work-grid {
     display: grid;
@@ -143,12 +143,6 @@ a:hover {
 .work-item:hover {
     transform: scale(1.03);
 }
-
-/* .work-item img {
-    width: 525px;
-    height: 300px;
-    border-radius: 10px;
-} */
 
 .work-item img {
     width: 100%; 
@@ -184,6 +178,10 @@ a:hover {
     height: 300px;
 }
 
+.return {
+    text-decoration: underline;
+}
+
 #note {
     text-align: center; 
     margin-top: 20px; 
@@ -214,3 +212,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
