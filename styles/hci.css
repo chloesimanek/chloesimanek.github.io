@@ -20,6 +20,102 @@
     margin-right: auto;       
 }
 
+/* research and anlysis process image */
+.process {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
 .project p {
     font-size: 18px;
+}
+
+/* requirements table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 0.5px solid rgb(175, 175, 175); 
+}
+thead th {
+    background-color: #b9d8ed;
+    width: 25%;
+}
+/* code example table */
+.code-table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 0.5px solid rgb(175, 175, 175); 
+    background-color: #ffffff;
+    margin: 20px auto;
+}
+
+.code-table th {
+    background-color: #ffffff; 
+    border: 0.5px solid rgb(175, 175, 175);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: left;
+}
+
+.code-table td {
+    border: 0.5px solid rgb(175, 175, 175);
+    padding: 8px;
+}
+
+/* figma embedding */
+.iframe-container {
+    width: 100%;
+    text-align: center; 
+}
+
+iframe {
+    display: block;
+    margin: auto; 
+}
+
+/* gifs */
+.gif-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.gif-box {
+    width: 30%;
+    margin: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.caption2 {
+    margin-top: 8px;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+/* spaces */
+.gap {
+    padding-top: 40px;
+}
+
+.quote {
+    color: #6497b9;
+    font-style: italic;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
 }
