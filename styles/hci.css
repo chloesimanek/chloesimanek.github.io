@@ -119,3 +119,38 @@ img {
     text-align: center;
     margin: 0 auto;
 }
+
+/* user quotes */
+.quote {
+    font-style: italic;
+    /* font-size: 1.2em; */
+    /* margin-top: 50px; */
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote:nth-child(even) {
+    margin-left: 10%;
+}
+
+.quote:nth-child(odd) {
+    margin-right: 10%;
+}
+
+ 
+.summary-improvements {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: start;
+}
+
+.future {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    align-items: start;
+}
